@@ -1,0 +1,7 @@
+{    
+    "baseUrl": {
+        "dev": "http://ew1eppqaassignment-env.eba-rqr3rd8p.eu-west-1.elasticbeanstalk.com",
+        "staging": "<Staging URL>",
+        "prod": "<Production URL>"
+    }
+}
