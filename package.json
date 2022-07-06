@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 10000 "
+    "test": "mocha --timeout 10000 --reporter mochawesome ",
+    "testsmoke":"mocha --grep '#Smoke' --timeout 10000 --reporter mochawesome ",
+    "testreg":"mocha --grep '#Reg' --timeout 10000 --reporter mochawesome "
   },
   "keywords": [],
   "author": "",
