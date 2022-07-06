@@ -18,9 +18,9 @@ Library's used: </br>**- SuperTest (For Rest API's), </br>- Chai (Support Test C
 
     1. Clone the project
     2. Open the cmd and change directory(cd) to the cloned project folder
-    3. Execute command to run all tests: 'npm test' or 'npm test --dev' (if env is not given by default dev env will get select)  
-    4. Execute command to run Smoke tests: 'npm run testsmoke' or 'npm run testsmoke --dev' (if env is not given by default dev env will get select)
-    5. Execute command to run Regression tests: 'npm run testreg' or 'testreg --dev' (if env is not given by default dev env will get select)
+    3. Execute command to run all tests: 'npm test' or 'npm test -- --dev' (if env is not given by default dev env will get select)  
+    4. Execute command to run Smoke tests: 'npm run testsmoke' or 'npm run testsmoke -- --dev' (if env is not given by default dev env will get select)
+    5. Execute command to run Regression tests: 'npm run testreg' or 'testreg -- --dev' (if env is not given by default dev env will get select)
     4. Wait for tests to be completed and results will be in the console (please refer below to get a comprehensive report)
 
 ## How to execute test with comprehensive reports
